@@ -88,14 +88,13 @@
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img class="d-block mx-lg-auto img-fluid mh-100" src="img/hands2.png" alt="handshake">
+          <img class="d-block mx-lg-auto img-fluid mh-100" src="img/hands.png" alt="handshake">
         </div>
         <div class="col-lg-6">
           <h1 class="display-4 fw-bold lh-1 text-light custom-1">Connect With Peers</h1>
           <p class="lead text-white">Sign up now for free virtual classes and tutoring, provided by like-minded high school peers knowledgable in course content.</p>
           <a class="btn btn-primary btn-lg px-4 me-2 fw-bold" href="classes.html">Seasonal classes</a>
-          <a class="btn btn-primary btn-lg px-4 my-2 fw-bold" href="tutoring.html">Connect with a Peer</a>
-          <a class="btn btn-outline-light btn-lg px-4 my-1" href="contact.html">Interested in teaching?</a>
+          <a class="btn btn-primary btn-lg px-4 my-2 fw-bold" href="#Tutoring Signup">Connect with a Peer</a>
         </div>
       </div>
     </div>
@@ -162,22 +161,122 @@
 
     </div>
   </div>
-  <!-- <div class="container px-4 my-4">
-    <div class="container py-vh-4">
-      <div class="row justify-content-between d-flex align-items-stretch">
-        <div class="col py-4">
-          <img class="img-fluid mh-100" src="img/comp.jpg" alt="typing on computer">
-        </div>
-        <div class="col my-auto align-items-center text-white">
-          <h2 class="h2 my-4">Why Youth Hand in Hand?</h2>
-          <p>Youth Hand in Hand is a nonprofit organization committed to giving all students an equal opportunity to
-            learn and succeed, both inside and outside school. We believe that we can lessen this gap through free
-            online classes, with people to guide them along every step of the way.
-            <br><br>
-            All of our donations will go to aiding the youths of today, providing them with more educational
-            opportunities!
-          </p>
-          <a class="btn btn-outline-primary btn-lg px-4 my-1 fw-bold" href="history.html">Learn more about our history!</a> -->
+  
+  <div class="container-lg">
+    <div class="row">
+      <span class="border-bottom border-5 mt-5"></span>
+    </div>
+  </div>
+  
+
+  <div class="container-lg" id="Tutoring Signup">
+      <div class="text-center mt-5" >
+          <h2 class="display-5 fw-semibold">Sign up for online tutoring!</h2>
+          <div class="row justify-content-center">
+              <p class="lead col-md-7">Thank you for your interest in Youth Hand in Hand! Fill out the form below and we'll connect your student with a talented peer within a week. We look forward to working with you!</p>
+          </div>
+          
+      </div>
+
+      <div class="row d-flex justify-content-center my-5">
+          <div class="col-md-6">
+              <form action="https://formsubmit.co/youthhandinhand@gmail.com" method="POST" class="needs-validation">
+                  <div class="mb-4">
+                      <label for="Student First Name" class="form-label text-muted">Student Name (First and Last)</label>
+                      <input type="text" class="form-control" name="Student First Name" required>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  
+                  <div class="mb-4">
+                      <label for="Student Last Name" class="form-label text-muted">Parent Name (First and Last)</label>
+                      <input type="text" class="form-control" name="Student Last Name" required>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  
+                  <div class="mb-4">
+                      <label for="Email" class="form-label text-muted">Email</label>
+                      <input type="email" class="form-control" name="Email" required>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+
+                  <div class="mb-4">
+                      <label for="Subject for Tutoring" class="form-label text-muted">What subject does the student need help with?</label>
+                      <select class="form-select" name="Subject for Tutoring" required>
+                          <option value="Algebra">Algebra</option>
+                          <option value="Geometry">Geometry</option>
+                          <option value="Trigonometry">Trigonometry</option>
+                          <option value="Pre-Calculus">Pre-Calculus</option>
+                          <option value="Calculus">Calculus</option>
+                          <option value="Statistics">Statistics</option>
+                          <option value="Physics">Physics</option>
+                          <option value="Chemistry">Chemistry</option>
+                          <option value="Biology">Biology</option>
+                          <option value="Chemistry">Chemistry</option>
+                          <option value="Reading">Reading</option>
+                          <option value="Writing">Writing</option>
+                          <option value="Other">Other</option>
+                      </select>
+                      <div class="invalid-feedback">Please select a subject.</div>
+                  </div>
+
+                  <div class="mb-4">
+                      <label for="Other Non-Listed Subject" class="form-label text-muted">If other, please specify the subject</label>
+                      <input type="text" class="form-control" name="Other Non-Listed Subject">
+                  </div>
+
+                  <div class="mb-4">
+                      <label for="Student Grade" class="form-label text-muted">What grade is the student currently in?</label>
+                      <select class="form-select" name="Student Grade" required>
+                          <option value="Kindergarten">Kindergarten</option>
+                          <option value="1st grade">1st grade</option>
+                          <option value="2nd grade">2nd grade</option>
+                          <option value="3rd grade">3rd grade</option>
+                          <option value="4th grade">4th grade</option>
+                          <option value="5th grade">5th grade</option>
+                          <option value="6th grade">6th grade</option>
+                          <option value="7th grade">7th grade</option>
+                          <option value="8th grade">8th grade</option>
+                          <option value="9th grade">9th grade</option>
+                          <option value="10th grade">10th grade</option>
+                          <option value="11th grade">11th grade</option>
+                          <option value="12th grade">12th grade</option>
+                          <option value="Past High School">Past High School</option>
+                      </select>
+                      <div class="invalid-feedback">Please select a grade.</div>
+                  </div>
+
+                  <div class="mb-4">
+                    <p>By registering for tutoring, you are agreeing that: your son/daughter(s), has permission to participate in the sessions. You hereby agree to hold harmless the instructors with respect. If the student behaves irresponsibly or does not show acceptable behavior, the Youth Hand in Hand group reserves the right to refuse further tutoring sessions. The student is expected to provide their own internet and means to access the session, including internet security. The Youth Hand in Hand group is not to be held for any responsibilities.</p>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Parent Certification 1" id="Agreement 1" required>
+                      <label class="form-check-label" for="Agreement 1">Yes, I agree</label>
+                    </div>
+                    <div class="invalid-feedback">Please accept our terms and conditions.</div>
+                  </div>
+
+                  <div class="mb-4">
+                    <p>All of our resources are free to the public—there will be no costs in attending this class. Anything regarding money is not related to the Youth Hand in Hand group.</p>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="Parent Certification 2" id="Agreement 2" required>
+                      <label class="form-check-label" for="Agreement 2">I understand</label>
+                    </div>
+                    <div class="invalid-feedback">Please accept our terms and conditions.</div>
+                  </div>
+
+                  <div class="mb-4">
+                    <label for="Questions or Concerns" class="form-label text-muted">Questions or Concerns</label>
+                    <textarea class="form-control" name="Questions or Concerns" rows="6"></textarea>
+                  </div>
+
+                  <div class="mb-4 text-center">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+
+              </form>
+          </div>
+      </div>
+  </div>
+
   <div class="custom-2">
     &nbsp;
   </div>

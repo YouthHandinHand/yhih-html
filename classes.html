@@ -109,21 +109,73 @@
                         </button>
                         <div class="collapse show" id="2023fall-collapse">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
-                                <li><a href="#c1" class="link-light rounded text-decoration-none">Algebra at Many Levels</a></li>
-                                <li><a href="#c2" class="link-light rounded text-decoration-none">Woodwind Exploration</a></li>
-                                <li><a href="#c3" class="link-light rounded text-decoration-none">Marine Ecosystems</a></li>
+                                <li class="mb-2 mt-1"><a href="#class1" class="link-light rounded text-decoration-none">Algebra at Many Levels</a></li>
+                                <li class="mb-2"><a href="#class2" class="link-light rounded text-decoration-none">Woodwind Exploration</a></li>
+                                <li class="mb-2"><a href="#class3" class="link-light rounded text-decoration-none">Marine Ecosystems</a></li>
+                                <li class="mb-2"><a href="#class4" class="link-light rounded text-decoration-none">Basic Civics and World History</a></li>
+                                <li class="mb-2"><a href="#class5" class="link-light rounded text-decoration-none">Intermediate Baking</a></li>
                             </ul>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="col-xxl-10 col-lg-9 px-5">
-                <div class="mb-4 pt-5">
-                    <h1>2023 Fall</h1>
+                <div class="mb-5 pt-5 text-center">
+                    <h1 class="display-1">2023 Fall</h1>
                 </div>
-                <div class="row gy-5" id="c1">
+                <div class="row">
+                    <span class="border-bottom border-5 mb-5"></span>
+                </div>
+
+            <!-- CLASS TEMPLATE (use cntrl-f to find and replace parentheses):
+                <div class="row gy-5 py-5" id="class(number)">
                     <div class="col-3 d-none d-xl-block">
-                        <img class="img-fluid mh-100" src="img/Maths.jpg" alt="">
+                        <img class="img-fluid mh-100" src="class_pictures/(image link).jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button fs-1 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#(accordion ID)" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="bi bi-(icon) pe-2"></i> (name of class)
+                                  </button>
+                                </h2>
+                                <div id="(accordion ID)" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>Taught by (teacher name)</strong> 
+                                    <br>
+                                    (class description)
+                                    <br><br>
+                                    <b>Meeting Times: </b>
+                                    (day of week, time of day)
+                                    <br>
+                                    <b>Start Date: </b>
+                                    (start date)
+                                    <br>
+                                    <b>End Date: </b>
+                                    (end date)
+                                    <br>
+                                    <a href="class_signup.html">Sign up now!</a>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                          
+                    </div>
+                    <div class="col-xl-3">
+                        <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="(class name) Countdown"></span> days until class starts!</p>
+                    </div>
+                    <div>
+                        <span class="border-bottom border-5"></span>
+                    </div>
+                    
+                </div>
+            -->
+
+                <div class="row gy-5 mb-5" id="class1">
+                    <div class="col-3 d-none d-xl-block">
+                        <img class="img-fluid mh-100" src="class_pictures/Algebra.jpg" alt="">
                     </div>
                     <div class="col">
                         <div class="accordion">
@@ -160,11 +212,13 @@
                     <div class="col-xl-3">
                         <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Algebra Countdown"></span> days until class starts!</p>
                     </div>
+
                     <span class="border-bottom border-5"></span>
+
                 </div>
-                <div class="row gy-5 py-5" id="c2">
+                <div class="row gy-5 mb-5" id="class2">
                     <div class="col-3 d-none d-xl-block">
-                        <img class="img-fluid mh-100" src="img/winds.jpg" alt="">
+                        <img class="img-fluid mh-100" src="class_pictures/woodwind.jpg" alt="">
                     </div>
                     <div class="col">
                         <div class="accordion">
@@ -189,6 +243,7 @@
                                     October 7th
                                     <br>
                                     <b>End Date: </b>
+                                    December 16th
                                     TBD
                                     <br>
                                     <a href="class_signup.html">Sign up now!</a>
@@ -201,12 +256,14 @@
                     </div>
                     <div class="col-xl-3">
                         <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Wind Countdown"></span> days until class starts!</p>
-                    </div>  
+                    </div>
+                    
                     <span class="border-bottom border-5"></span>
+
                 </div>
-                <div class="row gy-5 py-5" id="c3">
+                <div class="row gy-5 mb-5" id="class3">
                     <div class="col-3 d-none d-xl-block">
-                        <img class="img-fluid mh-100" src="img/ocean.jpg" alt="">
+                        <img class="img-fluid mh-100" src="class_pictures/marine.jpg" alt="">
                     </div>
                     <div class="col">
                         <div class="accordion">
@@ -244,7 +301,93 @@
                     <div class="col-xl-3">
                         <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Marine Countdown"></span> days until class starts!</p>
                     </div>
+
                     <span class="border-bottom border-5"></span>
+
+                </div>
+                <div class="row gy-5 mb-5" id="class4">
+                    <div class="col-3 d-none d-xl-block">
+                        <img class="img-fluid mh-100" src="class_pictures/civics.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button fs-1 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#Civics" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="bi bi-building pe-2"></i> Basic Civics and World History
+                                  </button>
+                                </h2>
+                                <div id="Civics" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>Taught by Joshua Choi</strong> 
+                                    <br>
+                                    In this class , where we'll delve into the intricate realm of government structures, civic responsibilities, and societal dynamics. Throughout this course, I'll guide you in unraveling the complexities of civic engagement and introduce captivating concepts, equipping you with the knowledge to address real-life issues and comprehend the essence of collective participation in our state and country.
+                                    <br><br>
+                                    <b>Meeting Times: </b>
+                                    Saturdays, 4 PM
+                                    <br>
+                                    <b>Start Date: </b>
+                                    October 7th
+                                    <br>
+                                    <b>End Date: </b>
+                                    November 4th
+                                    <br>
+                                    <a href="class_signup.html">Sign up now!</a>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                          
+                    </div>
+                    <div class="col-xl-3">
+                        <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Civics Countdown"></span> days until class starts!</p>
+                    </div>
+
+                    <span class="border-bottom border-5"></span>
+
+                </div>
+                <div class="row gy-5 mb-5" id="class5">
+                    <div class="col-3 d-none d-xl-block">
+                        <img class="img-fluid mh-100" src="class_pictures/baking.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button fs-1 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#Baking" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="bi bi-cup-hot pe-2"></i> Intermediate Baking
+                                  </button>
+                                </h2>
+                                <div id="Baking" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>Taught by Avery Yamamura</strong> 
+                                    <br>
+                                    In this class, we’ll explore an intermediate level baking course, full of different recipes and new techniques. In this baking class, you can build your confidence in the kitchen and gain new skills.
+                                    <br><br>
+                                    <b>Meeting Times: </b>
+                                    Monday, Evenings
+                                    <br>
+                                    <b>Start Date: </b>
+                                    October 16th
+                                    <br>
+                                    <b>End Date: </b>
+                                    November 20th
+                                    <br>
+                                    <a href="class_signup.html">Sign up now!</a>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                          
+                    </div>
+                    <div class="col-xl-3">
+                        <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Baking Countdown"></span> days until class starts!</p>
+                    </div>
+
+                    <span class="border-bottom border-5"></span>
+
                 </div>
             </div>
             
@@ -255,11 +398,15 @@
             var algStartDate = new Date("Oct 7, 2023 00:00:00").getTime();
             var windStartDate = new Date("Oct 7, 2023 00:00:00").getTime();
             var marineStartDate = new Date("Oct 3, 2023 00:00:00").getTime();
+            var civicsStartDate = new Date("Oct, 7, 2023 00:00:00").getTime();
+            var bakingStartDate = new Date("Oct, 16, 2023 00:00:00").getTime();
             
             // Update the countdown every second
             var x = setInterval(countdown, 1000, algStartDate, "Algebra Countdown");
             var x = setInterval(countdown, 1000, windStartDate, "Wind Countdown");
             var x = setInterval(countdown, 1000, marineStartDate, "Marine Countdown");
+            var x = setInterval(countdown, 1000, civicsStartDate, "Civics Countdown");
+            var x = setInterval(countdown, 1000, bakingStartDate, "Baking Countdown");
 
             function countdown(date, id) {
                 // Get today's date and time
