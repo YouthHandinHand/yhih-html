@@ -40,6 +40,10 @@
     .whiteicon {
       fill: white;
     }
+
+    #transition {
+      background: linear-gradient(0deg, white, black);
+    }
   </style>
 </head>
 
@@ -66,10 +70,6 @@
 
           <li class="nav-item me-1">
             <a class="nav-link" href="tutoring.html">TUTORING</a>
-          </li>
-
-          <li class="nav-item me-1">
-            <a class="nav-link" href="contact.html">CONTACT</a>
           </li>
 
           <li class="nav-item me-1">
@@ -100,6 +100,12 @@
     </div>
   </div>
 
+  <div id="transition">
+    <div class="container">
+      <span style="color: rgba(0, 0, 0, 0)";>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br></span>
+    </div>
+  </div>
+
   <div class="container-md">
     <div class="text-center pt-5">
       <h1 class="display-4">Why Youth Hand in Hand?</h1>
@@ -109,7 +115,7 @@
         <img class="img-fluid my-5 rounded-5" src="img/tutoring_image.jpg" alt="">
       </div>
       <div class="col-xl-6">
-        <div class="card my-4 border-2 border-primary border-opacity-50 rounded-5">
+        <div class="card my-4 border-2 border-black border-opacity-50 rounded-5">
           <div class="row d-flex align-items-center">
             <div class="col-md-2 d-none d-md-block">
               <img src="img\star.png" class="img-fluid rounded-5 ms-3" alt="...">
@@ -125,7 +131,7 @@
           </div>
         </div>
 
-        <div class="card my-4 border-2 border-primary border-opacity-50 rounded-5">
+        <div class="card my-4 border-2 border-black border-opacity-50 rounded-5">
           <div class="row d-flex align-items-center">
             <div class="col-md-2 d-none d-md-block">
               <img src="img\book.jpg" class="img-fluid rounded-5 ms-3" alt="...">
@@ -141,7 +147,7 @@
           </div>
         </div>
 
-        <div class="card my-4 border-2 border-primary border-opacity-50 rounded-5">
+        <div class="card my-4 border-2 border-black border-opacity-50 rounded-5">
           <div class="row d-flex align-items-center">
             <div class="col-md-2 d-none d-md-block">
               <img src="img\handshake.png" class="img-fluid rounded-5 ms-3" alt="...">
@@ -300,16 +306,21 @@
       </div>
 
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="https://www.instagram.com/youthhandinhand/?hl=en" target="_blank">
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram"></use>
+            </svg>
+          </a>
+        </li>
 
-          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/youthhandinhand/?hl=en" target="_blank"     ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#instagram"></use>
-                    </svg></a>
-          </li>
-
-          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/people/Youth-Hand-In-Hand/100094846911702/" target="_blank"><svg class="bi" width="24" height="24">
-                    <use xlink:href="#facebook"></use>
-                    </svg></a>
-          </li>
+        <li class="ms-3">
+          <a class="text-muted" href="https://www.facebook.com/people/Youth-Hand-In-Hand/100094846911702/" target="_blank">
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
     </footer>
   </div>
