@@ -9,3 +9,5 @@ If you're unfamiliar with bootstrap, here are some useful resources:
 * Name the tutor/past_president pictures by the person's first name
 * Name the class pictures by the first important word of the class name (Marine Biology = marine.jpg but Basic Civics and World History = civics.jpg)
 * /img contains other miscellaneous pictures that don't have to go by any convention (just use common sense when naming them)
+## Indentation
+For this website, we will be using a tab width of 2
