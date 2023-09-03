@@ -110,6 +110,7 @@
                 <li class="mb-2"><a href="#class3" class="link-light rounded text-decoration-none">Marine Ecosystems</a></li>
                 <li class="mb-2"><a href="#class4" class="link-light rounded text-decoration-none">Basic Civics and World History</a></li>
                 <li class="mb-2"><a href="#class5" class="link-light rounded text-decoration-none">Intermediate Baking</a></li>
+                <li class="mb-2"><a href="#class6" class="link-light rounded text-decoration-none">Speech and Debate</a></li>
               </ul>
             </div>
           </li>
@@ -124,7 +125,7 @@
             <span class="border-bottom border-5 mb-5"></span>
         </div>
 
-      <!-- CLASS TEMPLATE (use cntrl-f to find and replace parentheses):
+      <!-- CLASS TEMPLATE (use cntrl-f to find and replace parentheses; also make sure to update sidebar and class_signup):
         <div class="row gy-5 py-5" id="class(number)">
           <div class="col-3 d-none d-xl-block">
             <img class="img-fluid mh-100" src="class_pictures/(image link).jpg" alt="">
@@ -137,7 +138,7 @@
                     <i class="bi bi-(icon) pe-2"></i> (name of class)
                   </button>
                 </h2>
-                <div id="(accordion ID)" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div id="(accordion ID)" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <strong>Taught by (teacher name)</strong> 
                     <br>
@@ -368,6 +369,45 @@
           </div> -->
           <span class="border-bottom border-5"></span>
         </div>
+
+        <div class="row gy-5 py-5" id="class6">
+          <div class="col-3 d-none d-xl-block">
+            <img class="img-fluid mh-100" src="class_pictures/speech.jpg" alt="">
+          </div>
+          <div class="col">
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-1 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#Speech" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="bi bi-megaphone pe-2"></i> Speech and Debate
+                  </button>
+                </h2>
+                <div id="Speech" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Taught by Alice Schaak</strong> 
+                    <br>
+                    This course is designed to help students obtain the skills and confidence to become persuasive speakers and critical thinkers. In this class, students will explore various forms of public speaking, argumentation, and debate. They will learn how to craft compelling speeches, engage in open-minded discourse, and construct well-reasoned arguments.
+                    <br><br>
+                    <b>Meeting Times: </b>
+                    Sunday, 7PM
+                    <br>
+                    <b>Start Date: </b>
+                    October 8th
+                    <br>
+                    <b>End Date: </b>
+                    October 29th
+                    <br>
+                    <a href="class_signup.html">Sign up now!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-xl-3">
+            <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Speech Countdown"></span> days until class starts!</p>
+          </div> -->
+          <span class="border-bottom border-5"></span>
+        </div>
       </div>
     </div>
 
@@ -378,6 +418,7 @@
       var marineStartDate = new Date("Oct 3, 2023 00:00:00").getTime();
       var civicsStartDate = new Date("Oct, 7, 2023 00:00:00").getTime();
       var bakingStartDate = new Date("Oct, 16, 2023 00:00:00").getTime();
+      var speechStartDate = new Date("Oct, 8, 2023 00:00:00").getTime();
       
       // Update the countdown every second
       var x = setInterval(countdown, 1000, algStartDate, "Algebra Countdown");
@@ -385,6 +426,7 @@
       var x = setInterval(countdown, 1000, marineStartDate, "Marine Countdown");
       var x = setInterval(countdown, 1000, civicsStartDate, "Civics Countdown");
       var x = setInterval(countdown, 1000, bakingStartDate, "Baking Countdown");
+      var x = setInterval(countdown, 1000, speechStartDate, "Speech Countdown");
 
       function countdown(date, id) {
         // Get today's date and time
