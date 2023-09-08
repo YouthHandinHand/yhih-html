@@ -105,39 +105,15 @@
             </div>
 
             <div class="mb-4">
-              <div>
-                <p class="text-muted">Which class is the student registering for?</p>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Class" id="Algebra at Many Levels" required>
-                <label class="form-check-label" for="Algebra at Many Levels">Algebra at Many Levels</label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Class" id="Woodwind Exploration" required>
-                <label class="form-check-label" for="Woodwind Exploration">Woodwind Exploration</label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Class" id="Marine Ecosystems" required>
-                <label class="form-check-label" for="Marine Ecosystems">Marine Ecosystems</label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Class" id="Basic Civics and World History" required>
-                <label class="form-check-label" for="Basic Civics and World History">Basic Civics and World History</label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Class" id="Intermediate Baking" required>
-                <label class="form-check-label" for="Intermediate Baking">Intermediate Baking</label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Class" id="Speech and Debate" required>
-                <label class="form-check-label" for="Speech and Debate">Speech and Debate</label>
-              </div>
-
+              <label for="Class" class="form-label text-muted">Which class is the student registering for?</label>
+              <select class="form-select" name="Class" required>
+                <option value="Algebra at Many Levels">Algebra at Many Levels</option>
+                <option value="Woodwind Exploration">Woodwind Exploration</option>
+                <option value="Marine Ecosystems">Marine Ecosystems</option>
+                <option value="Basic Civics and World History">Basic Civics and World History</option>
+                <option value="Intermediate Baking">Intermediate Baking</option>
+                <option value="Speech and Debate">Speech and Debate</option>
+              </select>
               <div class="invalid-feedback">Please select a class.</div>
             </div>
 
