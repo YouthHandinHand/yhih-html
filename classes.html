@@ -159,9 +159,6 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3">
-            <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="(class name) Countdown"></span> days until class starts!</p>
-          </div>
           <span class="border-bottom border-5"></span>
         </div>
       -->
@@ -201,9 +198,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-xl-3">
-            <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Algebra Countdown"></span> days until class starts!</p>
-          </div> -->
           <span class="border-bottom border-5"></span>
         </div>
 
@@ -243,9 +237,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-xl-3">
-            <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Wind Countdown"></span> days until class starts!</p>
-          </div> -->
           <span class="border-bottom border-5"></span>
         </div>
 
@@ -286,9 +277,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-xl-3">
-            <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Marine Countdown"></span> days until class starts!</p>
-          </div> -->
           <span class="border-bottom border-5"></span>
         </div>
 
@@ -325,9 +313,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-xl-3">
-            <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Civics Countdown"></span> days until class starts!</p>
-          </div> -->
           <span class="border-bottom border-5"></span>
         </div>
 
@@ -364,9 +349,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-xl-3">
-            <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Baking Countdown"></span> days until class starts!</p>
-          </div> -->
           <span class="border-bottom border-5"></span>
         </div>
 
@@ -403,47 +385,10 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-xl-3">
-            <p class="fs-1 text-center">Only <span class="bg-danger p-2 rounded fw-bold text-white" id="Speech Countdown"></span> days until class starts!</p>
-          </div> -->
           <span class="border-bottom border-5"></span>
         </div>
       </div>
     </div>
-
-    <script>
-      // Class starting dates
-      var algStartDate = new Date("Oct 7, 2023 00:00:00").getTime();
-      var windStartDate = new Date("Oct 7, 2023 00:00:00").getTime();
-      var marineStartDate = new Date("Oct 3, 2023 00:00:00").getTime();
-      var civicsStartDate = new Date("Oct, 7, 2023 00:00:00").getTime();
-      var bakingStartDate = new Date("Oct, 16, 2023 00:00:00").getTime();
-      var speechStartDate = new Date("Oct, 8, 2023 00:00:00").getTime();
-      
-      // Update the countdown every second
-      var x = setInterval(countdown, 1000, algStartDate, "Algebra Countdown");
-      var x = setInterval(countdown, 1000, windStartDate, "Wind Countdown");
-      var x = setInterval(countdown, 1000, marineStartDate, "Marine Countdown");
-      var x = setInterval(countdown, 1000, civicsStartDate, "Civics Countdown");
-      var x = setInterval(countdown, 1000, bakingStartDate, "Baking Countdown");
-      var x = setInterval(countdown, 1000, speechStartDate, "Speech Countdown");
-
-      function countdown(date, id) {
-        // Get today's date and time
-        var now = new Date().getTime();
-        // Find the time between now and the class starting dates
-        var timeTillClassStarts = date - now;
-        // Time calculations for days
-        var days = Math.floor(timeTillClassStarts / (1000 * 60 * 60 * 24));
-        // Output the result in elements with respective ids
-        document.getElementById(id).innerHTML = days;
-        // If the count down is over, write some text 
-        if (timeTillClassStarts < 0) {
-          clearInterval(x);
-          document.getElementById(id).innerHTML = "Class Has Started. Stay tuned for future classes!";
-        }
-      };
-    </script>
   </main>
 
   <div class="container">
