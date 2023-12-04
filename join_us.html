@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true" />
+  <title>Youth Hand in Hand - Tutoring</title>
+  <link rel="icon" type="image/x-icon" href="img/YHIH_Logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+    #navbar {
+      background-color: black;
+    }
+
+    .navbar-toggler {
+      text-align: center;
+    }
+
+    #bgimage {
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/skybanner.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      min-height: 30vh;
+    }   
+  </style>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light py-2 shadow-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-0 py-0 ps-5 ms-5 pt-2 text-center" href="index.html">
+        <h4 class="font-weight-bold text-black"><img src="img/YHIH_Logo.png" class="img-fluid float-left align-middle"
+        width="50em" alt="Logo"> Youth Hand in Hand</h4>
+      </a>
+      <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item me-2">
+            <a class="nav-link text-black" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link text-black" href="tutoring.html">TUTORING</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link text-black" href="join_us.html">JOIN US</a>
+          </li>
+          <li class="nav-item me-5 pe-5">
+            <a class="nav-link text-black" href="history.html">OUR HISTORY</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container col-xxl-8 px-4 pb-5 my-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img class="d-block mx-lg-auto img-fluid mh-100 rounded-5" src="img/join_us_image.jpg" alt="handshake">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-4 lh-md">Become a Tutor</h1>
+        <p class="lead py-3">We are constantly looking for accomplished individuals who can make an impact. Join us in our mission today!</p>
+        <a class="btn btn-primary btn-lg px-4 my-2 fw-bold" href="#Volunteering Signup">Apply today</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-xl">
+
+
+    <div class="row" id="Volunteering Signup">
+      <span class="border-bottom border-5 mt-5"></span>
+    </div>
+
+
+  </div>
+    
+
+  <div class="container-lg">
+    <div class="text-center mt-5" >
+      <h2 class="display-5 fw-semibold">Application</h2>
+      <div class="row justify-content-center">
+        <p class="lead col-md-7">A few notes:
+        <br>1. You must be at least 14 years of age.
+        <br>2. If you are a minor, you will be required to get parental consent in order to join.
+        <br>3. After you submit, we will get back to you regarding your application status within a week. Thank you for your interest in joining Youth Hand in Hand!
+        </p>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center my-5">
+      <div class="col-md-6">
+        <form action="https://formsubmit.co/youthhandinhand@gmail.com" method="POST" class="needs-validation">
+          <div class="mb-4">
+            <label for="First Name" class="form-label text-muted">First Name<span class="text-danger">*</span></label>
+            <input type="text" class="form-control" name="First Name" required>
+          </div>
+          
+          <div class="mb-4">
+            <label for="Last Name" class="form-label text-muted">Last Name<span class="text-danger">*</span></label>
+            <input type="text" class="form-control" name="Last Name" required>
+          </div>
+
+          <div class="mb-4">
+            <label for="Date of Birth" class="form-label text-muted">Date of Birth<span class="text-danger">*</span></label>
+            <input type="text" class="form-control" name="Date of Birth" required>
+            <div class="form-text">
+              If you are under 18, by submitting this form, you are confirming that you have received parental consent to join our organization.
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <label for="Email" class="form-label text-muted">Email <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" name="Email" required>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+
+
+          <div id="Academics">
+            <div class="text-center mt-5">
+              <div class="display-5">
+                Academics
+              </div>
+              <div class="lead pt-2">
+                Please select the following subjects that you feel confident in tutoring in.
+              </div>
+            </div>
+
+            <div class="pt-4" id="Math">
+              <div class="lead">
+                Math
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Algebra 1" id="Algebra 1">
+                <label class="form-check-label" for="Algebra 1">
+                  Algebra 1
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Geometry" id="Geometry">
+                <label class="form-check-label" for="Geometry">
+                  Geometry
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Algebra 2" id="Algebra 2">
+                <label class="form-check-label" for="Algebra 2">
+                  Algebra 2
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Trigonometry" id="Trigonometry">
+                <label class="form-check-label" for="Trigonometry">
+                  Trigonometry
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Precalculus" id="Precalculus">
+                <label class="form-check-label" for="Precalculus">
+                  Precalculus
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Calculus" id="Calculus">
+                <label class="form-check-label" for="Calculus">
+                  Calculus
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Statistics" id="Statistics">
+                <label class="form-check-label" for="Statistics">
+                  Statistics
+                </label>
+              </div>
+            </div>
+
+            <div class="pt-4" id="Science">
+              <div class="lead">
+                Science
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Biology" id="Biology">
+                <label class="form-check-label" for="Biology">
+                  Biology
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Physics" id="Physics">
+                <label class="form-check-label" for="Physics">
+                  Physics
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Chemistry" id="Chemistry">
+                <label class="form-check-label" for="Chemistry">
+                  Chemistry
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Environmental Science" id="Environmental Science">
+                <label class="form-check-label" for="Environmental Science">
+                  Environmental Science
+                </label>
+              </div>
+            </div>
+
+            <div class="pt-4" id="Humanities">
+              <div class="lead">
+                Humanities
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Reading" id="Reading">
+                <label class="form-check-label" for="Reading">
+                  Reading
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Writing" id="Writing">
+                <label class="form-check-label" for="Writing">
+                  Writing
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="History" id="History">
+                <label class="form-check-label" for="History">
+                  History
+                </label>
+              </div>
+            </div>
+
+            <div class="pt-4" id="Test Prep">
+              <div class="lead">
+                Test Prep
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="SAT" id="SAT">
+                <label class="form-check-label" for="SAT">
+                  SAT
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="ACT" id="ACT">
+                <label class="form-check-label" for="ACT">
+                  ACT
+                </label>
+              </div>
+            </div>
+
+            <div class="my-4">
+              <label for="Other Non-Listed Subject" class="form-label text-muted">If there are any other subjects you are particularly confident in, please list them below.</label>
+              <input type="text" class="form-control" name="Other Non-Listed Subject">
+            </div>
+
+            <div class="mb-3">
+              <label for="Academic Record" class="form-label text-muted">Please attach your unofficial transcript. If that is unavailable, please attach your most recent academic record.</label>
+              <input class="form-control" type="file" id="Academic Record" required>
+            </div>
+          </div>
+
+
+          <div id="Final Questions">
+            <div class="display-5 text-center mt-5">
+              Final Questions
+            </div>
+
+            <div class="my-4">
+              <label for="Availability" class="form-label text-muted">In general, what does your availability look like?</label>
+              <input type="text" class="form-control" name="Availability">
+            </div>
+
+            <div class="mb-4">
+              <p>By applying to become a tutor for Youth Hand in Hand, I understand that I will be required to constantly be tutoring or on standby. All of my services are purely voluntary and unpaid.<span class="text-danger">*</span></p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Agreement" id="Agreement" required>
+                <label class="form-check-label" for="Agreement">Yes, I agree</label>
+              </div>
+            </div>
+
+
+            <div class="mb-4">
+              <label for="How they discovered YHIH" class="form-label text-muted">How did you hear about Youth Hand in Hand? <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" name="How they discovered YHIH" required>
+            </div>
+
+            <div class="mb-4">
+              <label for="Questions or Concerns" class="form-label text-muted">Questions or Concerns</label>
+              <textarea class="form-control" name="Questions or Concerns" rows="6"></textarea>
+            </div>
+          </div>
+
+          <div class="mb-4 text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</body>
