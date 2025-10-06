@@ -1,6 +1,6 @@
 # yhih-html
 ## Languages
-This website is (as of 8.20.23) written using mostly Bootstrap 5 HTML. There is some custom CSS and Javascript but the majority of the website is in HTML. <br /><br />
+This website is (as of 10.5.25) written using mostly Bootstrap 5 HTML. There is some custom CSS and Javascript but the majority of the website is in HTML. <br /><br />
 If you're unfamiliar with bootstrap, here are some useful resources: 
 * Video Playlist on basic Bootstrap: https://www.youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR.
 * Official Bootstrap 5 Documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/
